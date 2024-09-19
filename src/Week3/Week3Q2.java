@@ -16,6 +16,11 @@ public class Week3Q2 {
 
     //Create a function that returns the area of the resulting triangle.
     public static double getArea(double x1, double y1, double x2, double y2, double x3, double y3){
+        double sideA = Math.sqrt(Math.pow((x1 - x2), 2) + Math.pow((y1 - y2), 2));
+        double sideB = Math.sqrt(Math.pow((x2 - x3), 2) + Math.pow((y2 - y3), 2));
+        double sideC = Math.sqrt(Math.pow((x1 - x3), 2) + Math.pow((y1 - y3), 2));
+        double semiPerimeter = (sideA + sideB + sideC) / 2;
+        return Math.sqrt(semiPerimeter * (semiPerimeter - sideA) * (semiPerimeter - sideB) * (semiPerimeter - sideC));
         //TODO: Complete the function!
     }
     
