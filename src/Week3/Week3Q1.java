@@ -4,7 +4,7 @@ public class Week3Q1{
     public static void main(){
         System.out.println(countWords("The Quick Brown Fox Jumped Over the Lazy Dog"));
         System.out.println(countWords("Congrats on winning Merrimack!"));
-        System.out.println("Hi Ben.");
+        System.out.println(countWords("Hi Ben."));
 
         /*
          * Expected Output:
