@@ -31,6 +31,7 @@ public class Week3Q1{
             }
         }
         count ++;   //Accounts for the last word
+        //
 
         return count;
     }
