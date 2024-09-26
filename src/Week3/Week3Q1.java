@@ -1,7 +1,7 @@
 package Week3;
 
 public class Week3Q1{
-    public static void main(){
+    public static void main(String[] args){
         System.out.println(countWords("The Quick Brown Fox Jumped Over the Lazy Dog"));
         System.out.println(countWords("Congrats on winning Merrimack!"));
         System.out.println(countWords("Hi Ben."));
