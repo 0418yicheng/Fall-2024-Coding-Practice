@@ -17,6 +17,7 @@ public class Week3Q2 {
     //Create a function that returns the area of the resulting triangle.
     public static double getArea(double x1, double y1, double x2, double y2, double x3, double y3){
         //TODO: Complete the function!
+        return 0;
     }
     
 }
