@@ -14,6 +14,7 @@ public class Week3Q2 {
          */
     }
 
+<<<<<<< HEAD
     // Create a function that returns the area of the resulting triangle.
     public static double getArea(double x1, double y1, double x2, double y2, double x3, double y3) {
         double a = Math.hypot((x2 - x1), (y2 - y1));
@@ -22,6 +23,12 @@ public class Week3Q2 {
         double s = (a + b + c) / 2;
         double answer = Math.sqrt(s * (s - a) * (s - b) * (s - c));
         return answer;
+=======
+    //Create a function that returns the area of the resulting triangle.
+    public static double getArea(double x1, double y1, double x2, double y2, double x3, double y3){
+        //TODO: Complete the function!
+        return 0;
+>>>>>>> e16b522f3df1a59757ec18e7b55f43539753890a
     }
 
 }
