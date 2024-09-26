@@ -29,6 +29,5 @@ public class Week3Q1{
         //TODO: Complete the function!
         // *HINT: [String].charAt(index) will give you the character at the specified index
         //           Remember that the first element is at index 0
-        return 0;
     }
 }

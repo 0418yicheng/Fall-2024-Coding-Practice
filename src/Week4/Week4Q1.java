@@ -14,17 +14,23 @@ public class Week4Q1 {
 
          //Make Silly Ben take a test.
 
+         Student ben = new Student("Silly Ben", 22, -0.2);
+         System.out.println(ben.name);
+         System.out.println(ben.age);
+         System.out.println(ben.gpa);
+
+         ben.takeTest();
     }
 
     //Fix any errors that appear.
     public static class Student{
-        String name;
-        int age;
-        double gpa;
+        public String name;
+        public int age;
+        public double gpa;
 
-        public Student(String name, int age, double gag){
+        public Student(String name, int age, double gpa){
             this.name = name;
-            age = age;
+            this.age = age;
             this.gpa = gpa;
         }
         

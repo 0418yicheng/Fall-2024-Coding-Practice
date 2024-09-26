@@ -22,7 +22,6 @@ public class Week3Q2 {
         double semiPerimeter = (sideA + sideB + sideC) / 2;
         return Math.sqrt(semiPerimeter * (semiPerimeter - sideA) * (semiPerimeter - sideB) * (semiPerimeter - sideC));
         //TODO: Complete the function!
-        return 0;
     }
     
 }
