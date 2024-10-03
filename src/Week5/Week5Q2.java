@@ -14,13 +14,12 @@ public class Week5Q2 {
         System.out.println(getAimAngle(robot2, target2));
         System.out.println(getAimAngle(robot2, target3));
 
-
         /*
          * Expected Outputs:
          *  45
-         *  0
-         *  135
-         *  116.57
+         *  90
+         *  -135
+         *  -153.4
          */
     }
 
@@ -35,7 +34,9 @@ public class Week5Q2 {
 
     //Return the angle the robot needs to aim to in degrees.
     public static double getAimAngle(Point robotPos, Point targetPos){
-        double theta = 0;
-        return 0;
+        double theta = Math.atan2(targetPos.y - robotPos.y, targetPos.x -robotPos.x);
+
+        theta *= 180./Math.PI;
+        return theta;
     }
 }
