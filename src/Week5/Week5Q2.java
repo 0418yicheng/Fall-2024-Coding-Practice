@@ -17,9 +17,9 @@ public class Week5Q2 {
         /*
          * Expected Outputs:
          *  45
-         *  0
-         *  135
-         *  116.57
+         *  90
+         *  -135
+         *  -153.4
          */
     }
 
