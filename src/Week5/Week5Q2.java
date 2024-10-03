@@ -14,7 +14,6 @@ public class Week5Q2 {
         System.out.println(getAimAngle(robot2, target2));
         System.out.println(getAimAngle(robot2, target3));
 
-
         /*
          * Expected Outputs:
          *  45

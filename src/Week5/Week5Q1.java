@@ -11,7 +11,7 @@ public class Week5Q1 {
         cow.makeNoise();
 
         //Print out the Color of each animal
-        System.out.println("Colors: ");
+        System.out.println("\nColors: ");
         //TODO: PUT YOUR PRINT STATEMENTS HERE!
 
         /*
