@@ -34,6 +34,6 @@ public class Week5Q2 {
 
     //Return the angle the robot needs to aim to in degrees.
     public static double getAimAngle(Point robotPos, Point targetPos){
-        return 0;
+        return (Math.atan2((targetPos.y - robotPos.y), (targetPos.x - robotPos.x)) / (2 * Math.PI) * 360);
     }
 }

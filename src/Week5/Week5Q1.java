@@ -13,7 +13,15 @@ public class Week5Q1 {
         //Print out the Color of each animal
         System.out.println("\nColors: ");
         //TODO: PUT YOUR PRINT STATEMENTS HERE!
+        dog.makeNoise();
+        cat.makeNoise();
+        cow.makeNoise();
 
+        System.out.println("");
+
+        System.out.println(dog.getColor());
+        System.out.println(cat.getColor());
+        System.out.println(cow.getColor());
         /*
          * Expected outputs:
          *      Woof
@@ -52,16 +60,43 @@ public class Week5Q1 {
     }
 
     //TODO: Complete these classes to make this program work
-    public static class Dog{
-
+    public static class Dog extends Animal{
+        public Dog(String color){
+            super("Dog", color);
+        }
+        
+        @Override
+        public void makeNoise(){
+            System.out.println("Woof");
+        }
     }
 
-    public static class Cat{
+    public static class Cat extends Animal{
+        private int age;
 
+        public Cat(int age, String color){
+            super("Cat", color);
+            this.age = age;
+        }
+
+        @Override
+        public void makeNoise(){
+            System.out.println("Meow");
+        }
     }
 
-    public static class Cow{
+    public static class Cow extends Animal{
+        private String name;
 
+        public Cow(String name, int age, String color){
+            super("Cow", color);
+            this.name = name;
+        }
+
+        @Override
+        public void makeNoise(){
+            System.out.println("Moo");
+        }
     }
 }
 
